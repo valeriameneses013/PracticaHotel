@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Hotel</title>
+    <link rel="shortcut icon" href="imagenes/iconohotel.jpg" type="image/x-icon">
+    <style>
+        h1{
+            text-align: center ;
+        }
+        footer{
+            text-align: center;
+        }
+        a{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Best Hotel</h1>
+        <nav>
+    
+            <a href="index.html"><img src="./imagenes/iconohotel.jpg" width="50" alt="Hotel"></a>
+            <a href="index.html">Home</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="registro.html">Registro</a>
+            <a href="ubicacion.html">Ubicacion</a>
+        </nav>
+        <br>
+        
+    </header>
+    
+    <main>
+        <!--nombre apellido profesion mail celular direccion comentario-->
+        <h2>Registro de Pasajeros</h2>
+        <form action=show_data.html></form>    
+          <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label> 
+            <input type="text" name="nombre" id="nombre" size="30"
+             placeholder="Ingrese su nombre aqui">
+            <label for="apellido">Apellido:</label> 
+            <input type="text" name="apellido" id="apellido"
+             placeholder="Ingrese su apellido aqui"><br><br>
+            <label for="email">Email:</label> 
+            <input size="32" type="email" name="email" id="email"
+             placeholder="Ingrese su email aqui">
+            <label for="celular">Celular:</label> 
+            <input type="tel" name="celular" id="celular"
+             placeholder="Ingrese su celular aqui"><br><br>
+            <label for="calle">Calle:</label> 
+            <input type="text" name="calle" id="calle"
+             placeholder="Ingrese su calle aqui">
+            <label for="numero">Nro:</label> 
+            <input type="text" name="numero" id="numero" size="5" placeholder="numeracion">
+            <label for="barrio">Barrio:</label> 
+            <input type="text" name="barrio" id="barrio"
+             placeholder="Ingrese su barrio aqui"><br><br>
+            <label for="localidad">Localidad:</label> 
+            <input type="text" name="localidad" id="localidad" size="20" 
+             placeholder="Ingrese su localidad aqui">
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+                <option value="0"></option>
+                <option value="1">Cordoba</option>
+                <option value="2">Buenos Aires</option>
+                <option value="3">Misiones</option>
+                <option value="4">Neuquen</option>
+                <option value="5">San Luis</option>
+                <option value="6">San Juan</option>
+            </select>    
+            <label for="pais">Pais</label>    
+            <select name="pais" id="pais">
+                <option value="0"></option>
+                <option value="1">Argentina</option>
+                <option value="2">Bolivia</option>
+                <option value="3">Brasil</option>
+                <option value="4">Chile</option>
+                <option value="5">Peru</option>
+                <option value="6">Uruguay</option>
+            </select><br><br>
+            <label for="nacimiento">Fecha de Nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <p>Se identifica como:
+            <input type="radio" name="genero" id="hombre">Hombre
+            <input type="radio" name="genero" id="mujer">Mujer
+            <input type="radio" name="genero" id="otro">Otro        
+            </p>
+          </fieldset><br>
+            <label for="comentario">Comentarios</label><br>
+            <textarea name="comentario" rows="5" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar">  
+            <input type="reset" value="Limpiar Campos">       
+        </form>
+       
+    </main>   
+    <footer>
+        <p>Sitio desarrollado en la practica de los viernes</p>
+        <nav>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=03543515084679"><img width="30px" src="./imagenes/whatsapp.png" alt="whatsapp"></a>
+            <a target="_blank" href="https://web.facebookcom/">
+                <img width="30px" src="./imagenes/facebook.png" alt="facebook"></a>
+            <a target="_blank" href="https://web.instagram.com/">
+                <img width="30px" src="./imagenes/instagram.png" alt="instagram"></a>
+            <a target="_blank" href="https://web.twitter.com/">
+                <img width="30px" src="./imagenes/twitter.png" alt="twitter"></a>
+        </nav>
+    </footer>
+</body>
+</html>

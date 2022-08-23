@@ -1,0 +1,20 @@
+h1{
+    text-align: center ;
+}
+footer{
+    text-align: center;
+}
+a{
+    padding: 30px;
+
+}
+#rojo{
+    color: red;
+}
+.verde{
+    color: green;
+}
+
+header{
+    background-color: aquamarine;
+}
